@@ -2,16 +2,16 @@
 
  body {
    font-family: "Poppins", sans-serif;
-   color: #444444;
+   color: deeppink;
  }
 
  a {
    text-decoration: none;
-   color: #ffb03b;
+   color: deeppink;
  }
 
  a:hover {
-   color: #ffc56e;
+   color: purple;
    text-decoration: none;
  }
 
@@ -34,7 +34,7 @@
    right: 15px;
    bottom: 15px;
    z-index: 996;
-   background: #ffb03b;
+   background: deeppink;
    width: 40px;
    height: 40px;
    border-radius: 50px;
@@ -65,9 +65,9 @@
    font-size: 15px;
    height: 50px;
    transition: all 0.5s;
-   background: rgba(26, 24, 22, 0.8);
+   background: black;
    z-index: 996;
-   color: rgba(255, 255, 255, 0.7);
+   color: black;
  }
 
  #topbar.topbar-transparent {
@@ -79,12 +79,12 @@
  }
 
  #topbar i {
-   color: #ffb03b;
+   color: deeppink;
    line-height: 0;
  }
 
  #topbar i span {
-   color: #fff;
+   color: plum;
    font-style: normal;
    padding-left: 5px;
  }
@@ -107,7 +107,7 @@
 
  #header.header-scrolled {
    top: 0;
-   background: rgba(26, 24, 22, 0.85);
+   background: deeppink;
  }
 
  #header .logo h1 {
@@ -118,11 +118,7 @@
    letter-spacing: 3px;
  }
 
- #header .logo h1 a,
- #header .logo h1 a:hover {
-   color: #fff;
-   text-decoration: none;
- }
+
 
  #header .logo img {
    border-radius: 10px;
@@ -136,7 +132,7 @@
  /* # Book a table haircut button Menu */
 
  .book-a-table-btn {
-   background: #ffb03b;
+   background: black;
    color: #fff;
    border-radius: 50px;
    margin: 0 0 0 20px;
@@ -149,7 +145,7 @@
  }
 
  .book-a-table-btn:hover {
-   background: #ffa012;
+   background: hotpink;
    color: #fff;
  }
 
@@ -207,7 +203,7 @@
  .navbar .active,
  .navbar .active:focus,
  .navbar li:hover>a {
-   color: #ffb03b;
+   color: black;
  }
 
  .navbar .dropdown ul {
@@ -220,7 +216,6 @@
    z-index: 99;
    opacity: 0;
    visibility: hidden;
-   background: #fff;
    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
    transition: 0.3s;
    border-radius: 4px;
@@ -244,7 +239,7 @@
  .navbar .dropdown ul a:hover,
  .navbar .dropdown ul .active:hover,
  .navbar .dropdown ul li:hover>a {
-   color: #ffb03b;
+   color: blue;
  }
 
  .navbar .dropdown:hover>ul {
@@ -340,7 +335,7 @@
  .navbar-mobile a:hover,
  .navbar-mobile .active,
  .navbar-mobile li:hover>a {
-   color: #ffb03b;
+   color: deeppink;
  }
 
  .navbar-mobile .getstarted,
@@ -375,7 +370,7 @@
  .navbar-mobile .dropdown ul a:hover,
  .navbar-mobile .dropdown ul .active:hover,
  .navbar-mobile .dropdown ul li:hover>a {
-   color: #ffb03b;
+   color: blue;
  }
 
  .navbar-mobile .dropdown>.dropdown-active {
@@ -427,7 +422,7 @@
  }
 
  #hero h2 {
-   color: #ffb03b;
+   color: deeppink;
    margin-bottom: 30px;
    font-size: 48px;
    font-weight: 700;
@@ -482,8 +477,6 @@
    border-radius: 50px;
    transition: 0.3s;
    color: rgba(255, 255, 255, 0.5);
-   width: 54px;
-   height: 54px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -514,12 +507,12 @@
    -webkit-animation-delay: 0.8s;
    animation-delay: 0.8s;
    color: #fff;
-   border: 2px solid #ffb03b;
+   border: 2px solid deeppink;
  }
 
  #hero .btn-menu:hover,
  #hero .btn-book:hover {
-   background: #ffb03b;
+   background: hotpink;
    color: #fff;
  }
 
@@ -564,7 +557,7 @@
  }
 
  .section-title h2 span {
-   color: #ffb03b;
+   color: deeppink;
  }
 
  .section-title p {
@@ -684,7 +677,7 @@
 
  .about .content ul i {
    font-size: 20px;
-   color: #ffb03b;
+   color: black;
    position: absolute;
    left: 0;
    top: 2px;
@@ -705,7 +698,7 @@
  .about .play-btn {
    width: 94px;
    height: 94px;
-   background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+   background: radial-gradient(blue 50%, rgba(255, 176, 59, 0.4) 52%);
    border-radius: 50%;
    display: block;
    position: absolute;
@@ -746,14 +739,14 @@
    animation-timing-function: steps;
    opacity: 1;
    border-radius: 50%;
-   border: 5px solid rgba(255, 176, 59, 0.7);
+   border: 5px solid blue;
    top: -15%;
    left: -15%;
    background: rgba(198, 16, 0, 0);
  }
 
  .about .play-btn:hover::after {
-   border-left: 15px solid #ffb03b;
+   border-left: 15px solid blue;
    transform: scale(20);
  }
 
@@ -832,7 +825,7 @@
    display: block;
    font-size: 28px;
    font-weight: 700;
-   color: #ffcf88;
+   color: pink;
  }
 
  .why-us .box h4 {
@@ -840,7 +833,7 @@
    font-weight: 600;
    padding: 0;
    margin: 20px 0;
-   color: #6c665c;
+   color: palevioletred;
  }
 
  .why-us .box p {
@@ -851,7 +844,7 @@
  }
 
  .why-us .box:hover {
-   background: #ffb03b;
+   background: pink;
    padding: 30px 30px 70px 30px;
    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
  }
@@ -884,14 +877,14 @@
    margin: 0 3px 10px 3px;
    transition: all ease-in-out 0.3s;
    background: #fff;
-   border: 2px solid #ffb03b;
+   border: 2px solid black;
    border-radius: 50px;
  }
 
  .menu #menu-flters li:hover,
  .menu #menu-flters li.filter-active {
    color: #fff;
-   background: #ffb03b;
+   background: hotpink;
  }
 
  .menu #menu-flters li:last-child {
@@ -923,7 +916,7 @@
    position: relative;
    z-index: 3;
    font-weight: 700;
-   color: #ff9b08;
+   color: purple;
  }
 
  .menu .menu-content span {
@@ -964,12 +957,12 @@
  }
 
  .specials .nav-link:hover {
-   color: #ffb03b;
+   color: deeppink;
  }
 
  .specials .nav-link.active {
-   color: #ffb03b;
-   border-color: #ffb03b;
+   color: purple;
+   border-color: deeppink;
  }
 
  .specials .tab-pane.active {
@@ -1000,7 +993,6 @@
 
    .specials .nav-link.active {
      color: #fff;
-     background: #ffb03b;
    }
  }
 
@@ -1049,7 +1041,7 @@
  .events .event-item h3 {
    font-weight: 600;
    font-size: 26px;
-   color: #ffb03b;
+   color: purple;
  }
 
  .events .event-item .price {
@@ -1060,7 +1052,7 @@
  }
 
  .events .event-item .price span {
-   border-bottom: 2px solid #ffb03b;
+   border-bottom: 2px solid deeppink;
  }
 
  .events .event-item ul {
@@ -1075,7 +1067,7 @@
  .events .event-item ul i {
    font-size: 20px;
    padding-right: 4px;
-   color: #ffb03b;
+   color: deeppink;
  }
 
  .events .event-item p:last-child {
@@ -1095,7 +1087,7 @@
  }
 
  .events .swiper-pagination .swiper-pagination-bullet-active {
-   background-color: #ffb03b;
+   background-color: deeppink;
  }
 
 
@@ -1114,7 +1106,7 @@
 
  .book-a-table .php-email-form .validate {
    display: none;
-   color: red;
+   color: black;
    margin: 0 0 15px 0;
    font-weight: 400;
    font-size: 13px;
@@ -1123,7 +1115,7 @@
  .book-a-table .php-email-form .error-message {
    display: none;
    color: #fff;
-   background: #ed3c0d;
+   background: rebeccapurple;
    text-align: left;
    padding: 15px;
    font-weight: 600;
@@ -1136,7 +1128,6 @@
  .book-a-table .php-email-form .sent-message {
    display: none;
    color: #fff;
-   background: #18d26e;
    text-align: center;
    padding: 15px;
    font-weight: 600;
@@ -1156,7 +1147,6 @@
    width: 24px;
    height: 24px;
    margin: 0 10px -6px 0;
-   border: 3px solid #18d26e;
    border-top-color: #eee;
    -webkit-animation: animate-loading 1s linear infinite;
    animation: animate-loading 1s linear infinite;
@@ -1178,7 +1168,7 @@
  }
 
  .book-a-table .php-email-form button[type=submit] {
-   background: #ffb03b;
+   background: palevioletred;
    border: 0;
    padding: 10px 24px;
    color: #fff;
@@ -1187,7 +1177,7 @@
  }
 
  .book-a-table .php-email-form button[type=submit]:hover {
-   background: #ffa012;
+   background: deeppink;
  }
 
 
@@ -1280,7 +1270,7 @@
    display: block;
    width: 50px;
    height: 1px;
-   background: #ffcf88;
+   background: blue;
    bottom: 0;
    left: calc(50% - 25px);
  }
@@ -1301,7 +1291,7 @@
  }
 
  .chefs .member .social a:hover {
-   color: #ffb03b;
+   color: deeppink;
  }
 
  .chefs .member .social i {
@@ -1379,7 +1369,7 @@
  }
 
  .testimonials .testimonial-item .stars {
-   color: #ffb03b;
+   color: deeppink;
    margin-bottom: 10px;
  }
 
@@ -1421,7 +1411,7 @@
  }
 
  .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-   background-color: #ffb03b;
+   background-color: blue;
  }
 
  @media (min-width: 992px) {
@@ -1444,7 +1434,7 @@
 
  .contact .info i {
    font-size: 20px;
-   color: #ffb03b;
+   color: blue;
    float: left;
    width: 44px;
    height: 44px;
@@ -1473,7 +1463,7 @@
  }
 
  .contact .info:hover i {
-   background: #ffb03b;
+   background: blue;
    color: #fff;
  }
 
@@ -1491,7 +1481,7 @@
  .contact .php-email-form .error-message {
    display: none;
    color: #fff;
-   background: #ed3c0d;
+   background: blue;
    text-align: center;
    padding: 15px;
    font-weight: 600;
@@ -1542,7 +1532,7 @@
  }
 
  .contact .php-email-form button[type=submit] {
-   background: #ffb03b;
+   background: green;
    border: 0;
    padding: 10px 24px;
    color: #fff;
@@ -1551,7 +1541,7 @@
  }
 
  .contact .php-email-form button[type=submit]:hover {
-   background: #ffa012;
+   background: blue;
  }
 
  @-webkit-keyframes animate-loading {
@@ -1588,14 +1578,14 @@
  #footer h3 {
    font-size: 36px;
    font-weight: 700;
-   color: #ffb03b;
+   color: deeppink;
    position: relative;
    padding: 0;
    margin: 0 0 15px 0;
  }
 
  #footer p {
-   font-size: 15;
+   font-size: 15px;
    font-style: italic;
    padding: 0;
    margin: 0 0 40px 0;
@@ -1621,7 +1611,7 @@
  }
 
  #footer .social-links a:hover {
-   background: #ffb03b;
+   background: deeppink;
  }
 
  #footer .copyright {
@@ -1653,5 +1643,5 @@
  }
 
  .spanClub {
-   color: #476cc0;
+   color: blue;
  }
